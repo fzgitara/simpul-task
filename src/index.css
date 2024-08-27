@@ -1,13 +1,67 @@
+:root {
+  --font-family-lato: 'Lato';
+  --font-size-l: 16px;
+  --font-size-m: 14px;
+  --font-size-s: 12px;
+
+  --color-primary-blue: #2f80ed;
+  --color-primary-dark-gray: #4f4f4f;
+  --color-primary-gray: #828282;
+  --color-primary-white: #e0e0e0;
+
+  --color-indicator-purple: #8785ff;
+  --color-indicator-orange: #f8b76b;
+
+  --color-chat-secondary-purple: #eedcff;
+  --color-chat-secondary-orange: #fceed3;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.d-flex {
+  display: flex;
+}
+
+.text-bold-l {
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-l);
+  font-weight: bold;
+}
+
+.text-bold-m {
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-weight: bold;
+}
+
+.text-regular-l {
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-l);
+}
+
+.text-regular-m {
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+}
+
+.text-regular-s {
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mr-24 {
+  margin-right: 24px;
 }

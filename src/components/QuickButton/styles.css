@@ -1,0 +1,53 @@
+.quick-button {
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.quick-button-medium {
+  height: 68px;
+  width: 68px;
+  border-radius: 34px;
+}
+
+.quick-button-small {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+
+.quick-button-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.quick-button-lightning {
+  background-color: var(--color-primary-blue);
+}
+
+.quick-button-message {
+  background-color: var(--color-indicator-purple);
+}
+
+.quick-button-book {
+  background-color: var(--color-indicator-orange);
+}
+
+.quick-button-message-secondary {
+  background-color: var(--color-chat-secondary-purple);
+}
+
+.quick-button-book-secondary {
+  background-color: var(--color-chat-secondary-orange);
+}
+
+.quick-button-blank {
+  background-color: var(--color-primary-dark-gray);
+}
