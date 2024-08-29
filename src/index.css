@@ -1,4 +1,6 @@
 :root {
+  font-family: 'Lato';
+
   --font-family-lato: 'Lato';
   --font-size-l: 16px;
   --font-size-m: 14px;
@@ -7,10 +9,12 @@
   --color-primary-blue: #2f80ed;
   --color-primary-dark-gray: #4f4f4f;
   --color-primary-gray: #828282;
-  --color-primary-white: #e0e0e0;
+  --color-primary-light-gray: #e0e0e0;
 
   --color-indicator-purple: #8785ff;
   --color-indicator-orange: #f8b76b;
+  --color-indicator-gray: #c4c4c4;
+  --color-indicator-light-gray: #f8f8f8;
 
   --color-chat-secondary-purple: #eedcff;
   --color-chat-secondary-orange: #fceed3;
@@ -32,30 +36,38 @@ body {
 }
 
 .text-bold-l {
-  font-family: var(--font-family-lato);
   font-size: var(--font-size-l);
   font-weight: bold;
 }
 
 .text-bold-m {
-  font-family: var(--font-family-lato);
   font-size: var(--font-size-m);
   font-weight: bold;
 }
 
+.text-bold-s {
+  font-size: var(--font-size-s);
+  font-weight: bold;
+}
+
 .text-regular-l {
-  font-family: var(--font-family-lato);
   font-size: var(--font-size-l);
 }
 
 .text-regular-m {
-  font-family: var(--font-family-lato);
   font-size: var(--font-size-m);
 }
 
 .text-regular-s {
-  font-family: var(--font-family-lato);
   font-size: var(--font-size-s);
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
 }
 
 .mb-16 {
@@ -64,4 +76,16 @@ body {
 
 .mr-24 {
   margin-right: 24px;
+}
+
+.color-primary-blue {
+  color: var(--color-primary-blue);
+}
+
+.color-primary-dark-gray {
+  color: var(--color-primary-dark-gray);
+}
+
+.front-chat-room {
+  cursor: pointer;
 }

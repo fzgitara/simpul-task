@@ -1,0 +1,61 @@
+.inbox-visible {
+  width: 734px;
+  height: 737px;
+  padding: 24px 32px;
+  visibility: visible;
+  opacity: 1;
+  transition: width 0.3s ease-in, height 0.3s ease-in, visibility 0.1s ease-in 0s, opacity 0.1s;
+}
+
+.inbox-hidden {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: width 0.1s ease-out, height 0.1s ease-out, visibility 0s ease-out 0.3s, opacity 0.1s;
+}
+
+.inbox-loading {
+  height: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.front-chat-room:not(:last-child) {
+  border-bottom: 1px solid var(--color-primary-gray);
+}
+
+.front-chat-room {
+  padding: 22px 0;
+}
+
+.profile-picture-container {
+  display: flex;
+  justify-content: center;
+  width: 52px;
+  margin-right: 18px;
+}
+
+.profile-picture {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: var(--color-primary-blue);
+  color: white;
+  font-weight: bold;
+  align-content: center;
+  text-align: center;
+  z-index: 998;
+}
+
+.profile-picture-gray {
+  margin-right: -16px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: var(--color-primary-light-gray);
+  align-content: center;
+  text-align: center;
+  z-index: 997;
+}

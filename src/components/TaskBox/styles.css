@@ -1,0 +1,23 @@
+.task-box-visible {
+  width: 734px;
+  height: 737px;
+  padding: 24px 32px;
+  visibility: visible;
+  opacity: 1;
+  transition: width 0.3s ease-in, height 0.3s ease-in, visibility 0.1s ease-in 0s, opacity 0.1s;
+}
+
+.task-box-hidden {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: width 0.1s ease-out, height 0.1s ease-out, visibility 0s ease-out 0.3s, opacity 0.1s;
+}
+
+.task-box-loading {
+  height: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
