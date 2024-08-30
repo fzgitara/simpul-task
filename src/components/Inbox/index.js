@@ -68,7 +68,6 @@ const Inbox = props => {
         fullName: `${post.firstName} ${post.lastName}`
       }
     });
-    console.log(updatedData)
 
     setComments(updatedData);
     setLoading(false);

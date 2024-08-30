@@ -102,6 +102,7 @@
 
 .chat-bubble-container {
   transition: all 0.3s ease;
+  margin-top: 16px;
 }
 
 .chat-bubble-container:nth-child(odd) > p {

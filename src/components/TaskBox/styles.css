@@ -21,3 +21,86 @@
   justify-content: center;
   align-items: center;
 }
+
+.task-box-visible > div > .dropdown {
+  margin-left: 96px;
+}
+
+.task-box-visible > div > .button-primary {
+  padding: 0 16px;
+}
+
+.todo-check {
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.todo-container {
+  margin-top: 16px;
+}
+
+.todo-container:not(:last-child) {
+  border-bottom: 1px solid var(--color-primary-gray);
+}
+
+.todo-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-date-container {
+  justify-content: flex-end;
+}
+
+.task-container {
+  overflow: auto;
+  height: 90%;
+  margin-top: 16px;
+}
+
+.task-pencil-icon {
+  align-self: flex-start;
+  margin-left: 32px;
+  margin-right: 16px;
+}
+
+.task-clock-icon {
+  align-self: center;
+  margin-left: 32px;
+  margin-right: 12px;
+}
+
+.task-calendar-icon {
+  align-self: center;
+  margin-left: 36px;
+}
+
+.todo-date-picker {
+  border: 1px solid var(--color-primary-gray);
+  border-radius: 4px;
+  padding: 4px;
+  display: flex;
+}
+
+.react-date-picker__wrapper {
+  border: none !important;
+}
+
+.react-date-picker__calendar-button {
+  display: flex;
+}
+
+.react-date-picker__calendar--open {
+  margin-left: 136px;
+  margin-top: 16px;
+}
+
+.react-calendar {
+  border-radius: 4px;
+  border-color: var(--color-primary-gray);
+  padding: 16px;
+}
+
+.react-calendar button {
+  color: var(--color-primary-dark-gray);
+}

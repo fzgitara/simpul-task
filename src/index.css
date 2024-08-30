@@ -73,35 +73,39 @@ body {
 }
 
 .m-0 {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .mb-4 {
-  margin-bottom: 4px;
+  margin-bottom: 4px !important;
 }
 
 .mb-8 {
-  margin-bottom: 8px;
+  margin-bottom: 8px !important;
 }
 
 .mb-16 {
-  margin-bottom: 16px;
+  margin-bottom: 16px !important;
 }
 
 .mr-16 {
-  margin-right: 16px;
+  margin-right: 16px !important;
 }
 
 .mr-24 {
-  margin-right: 24px;
+  margin-right: 24px !important;
 }
 
 .ml-16 {
-  margin-left: 16px;
+  margin-left: 16px !important;
 }
 
 .mt-8 {
-  margin-top: 8px;
+  margin-top: 8px !important;
+}
+
+.mt-16 {
+  margin-top: 16px !important;
 }
 
 .color-primary-blue {
@@ -110,6 +114,10 @@ body {
 
 .color-primary-dark-gray {
   color: var(--color-primary-dark-gray);
+}
+
+.color-primary-red {
+  color: var(--color-primary-red);
 }
 
 .cursor-pointer {

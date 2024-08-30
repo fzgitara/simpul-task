@@ -28,7 +28,7 @@ const ChatRoom = props => {
           className={`chat-bubble-container ${myChat && 'my-chat-bubble-container'}`}
           key={index}
         >
-          <p className='text-bold-m mb-8'>{comment.user.fullName}</p>
+          <p className='text-bold-m mb-4'>{comment.user.fullName}</p>
           <div className='chat-bubble'>
             <p className='text-regular-m m-0'>{comment.body}</p>
             <p className='text-regular-m m-0 mt-8'>19:32</p>

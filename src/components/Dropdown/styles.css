@@ -1,0 +1,26 @@
+.dropdown > button,
+.dropdown > button:hover,
+.btn.show {
+  background-color: white;
+  border-color: var(--color-primary-dark-gray);
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu {
+  padding: 0;
+  border-color: var(--color-primary-gray);
+}
+
+.dropdown-menu > :not(:last-child) {
+  border-bottom: 1px solid var(--color-primary-gray);
+}
+
+.dropdown-menu > li {
+  padding: 4px 16px;
+  font-weight: bold;
+  font-size: var(--font-size-m);
+  color: var(--color-primary-dark-gray)
+}
