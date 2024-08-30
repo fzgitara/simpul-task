@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
-import Button from './components/Button';
 import QuickButton from './components/QuickButton';
 import Inbox from './components/Inbox';
 
