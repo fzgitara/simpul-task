@@ -1,7 +1,6 @@
 .inbox-visible {
   width: 734px;
   height: 737px;
-  padding: 24px 32px;
   visibility: visible;
   opacity: 1;
   transition: width 0.3s ease-in, height 0.3s ease-in, visibility 0.1s ease-in 0s, opacity 0.1s;
@@ -16,10 +15,15 @@
 }
 
 .inbox-loading {
-  height: 98%;
+  height: 94%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.front-chat-room-container {
+  padding: 24px 32px;
+  height: 100%;
 }
 
 .front-chat-room:not(:last-child) {
@@ -28,6 +32,7 @@
 
 .front-chat-room {
   padding: 22px 0;
+  cursor: pointer;
 }
 
 .profile-picture-container {
@@ -58,4 +63,89 @@
   align-content: center;
   text-align: center;
   z-index: 997;
+}
+
+.dot-notification {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--color-primary-red);
+  position: absolute;
+  right: 36px;
+  align-self: flex-end;
+}
+
+.front-chat-room {
+  cursor: pointer;
+}
+
+.chat-room-header {
+  display: flex;
+  padding: 16px 32px;
+  border-bottom: 1px solid var(--color-indicator-gray);
+}
+
+.chat-close-icon {
+  align-self: center;
+  position: absolute;
+  right: 32px;
+  cursor: pointer;
+}
+
+.chat-room-body {
+  padding: 0 32px 24px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-bubble-container {
+  transition: all 0.3s ease;
+}
+
+.chat-bubble-container:nth-child(odd) > p {
+  color: var(--color-chat-orange);
+}
+
+.chat-bubble-container:nth-child(even) > p {
+  color: var(--color-chat-green);
+}
+
+.chat-bubble {
+  border-radius: 4px;
+  padding: 8px;
+  width: fit-content;
+}
+
+.chat-bubble-container:nth-child(odd) > .chat-bubble {
+  background-color: var(--color-chat-secondary-orange);
+}
+
+.chat-bubble-container:nth-child(even) > .chat-bubble {
+  background-color: var(--color-chat-secondary-green);
+}
+
+.chat-room-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-room-footer {
+  display: flex;
+  padding: 24px 32px;
+}
+
+.my-chat-bubble-container {
+  align-self: flex-end;
+}
+
+.my-chat-bubble-container > p {
+  color: var(--color-chat-purple) !important;
+  text-align: right;
+}
+
+.my-chat-bubble-container > .chat-bubble {
+  background-color: var(--color-chat-secondary-purple) !important;
 }

@@ -1,5 +1,5 @@
 .App {
-  background-color: #333333;
+  background-color: var(--color-indicator-dark-gray);
   color: #ffffff;
   height: 100vh;
 }

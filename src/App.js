@@ -59,7 +59,7 @@ function App() {
 
       <div className='content'>
         <div className='content-box-container'>
-          <Inbox activated={inboxActivated} />
+          <Inbox activated={inboxActivated} close={blankClick} />
           <TaskBox activated={taskActivated} />
         </div>
         <div className={`main-quick-button-container ${inboxActivated || taskActivated ? 'main-quick-button-hidden' : 'main-quick-button-visible'}`}>
